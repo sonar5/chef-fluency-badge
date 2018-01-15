@@ -10,7 +10,7 @@ package 'apache2' do
 	action :install
 end
 
-serive 'apache2' do
+service 'apache2' do
 	service_name 'httpd'
 	action [:start, :enable]
 end
